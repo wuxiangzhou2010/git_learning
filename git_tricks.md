@@ -14,3 +14,10 @@ git reset <some added file >
 ## reset all added files 
 git reset 
 ```
+### git config
+``` shell
+git config --global user.name "xxx" 
+git config --global user.email "xxx@gmail.com"
+# show git config 
+git config --list
+```
