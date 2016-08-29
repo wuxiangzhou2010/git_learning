@@ -3,9 +3,7 @@
 ### modify commit messages
 ``` shell
 git commit --amend -m "your new commit message"
-```
-note: if you have commited to the remote  you can push again by force by
-``` shell
+# note: if you have commited to the remote  you can push again by force
 git push <remote> <branch> --force
 ```
 ### revert git add 
