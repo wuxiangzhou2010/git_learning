@@ -7,6 +7,7 @@ git commit --amend -m "your new commit message"
 git push <remote> <branch> --force
 ```
 ### git reset 
+revert git added(or discard changes in the staging area)
 With or without --hard option, any local commits that haven't been pushed will be lost
 git reset resets the master branch to what you just fetched. The --hard option changes all the files in your working tree to match the files in origin/master
 ``` shell 
@@ -32,4 +33,8 @@ git config --global user.name "xxx"
 git config --global user.email "xxx@gmail.com"
 # show git config 
 git config --list
+```
+### discard modification  in the workspace
+``` shell
+git checkout -- file.c
 ```
