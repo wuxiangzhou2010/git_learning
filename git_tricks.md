@@ -38,3 +38,7 @@ git config --list
 ``` shell
 git checkout -- file.c
 ```
+### delete untracked files and directories
+``` shell
+git clean -df
+```
