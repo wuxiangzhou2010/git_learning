@@ -42,3 +42,7 @@ git checkout -- file.c
 ``` shell
 git clean -df
 ```
+### a shallow clone (meaning not cloning the all history), this will speed up the clone
+``` shell 
+git clone --depth 1 <repository>
+```
