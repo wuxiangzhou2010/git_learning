@@ -45,6 +45,7 @@ git clean -df
 ### a shallow clone (meaning not cloning the all history), this will speed up the clone
 ``` shell 
 git clone --depth 1 <repository>
-# if you want to see more logs, use git pull 
+# if you want to see more logs, use git pull or git pull --unshallow 
 git pull --depth=10
+git pull --unshallow
 ```
