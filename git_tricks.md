@@ -49,3 +49,7 @@ git clone --depth 1 <repository>
 git pull --depth=10
 git pull --unshallow
 ```
+### remove files saying “old mode 100755 new mode 100644” from unstaged changes in Git
+```
+git config core.filemode false
+```
