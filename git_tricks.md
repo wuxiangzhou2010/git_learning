@@ -59,3 +59,8 @@ git config core.filemode false
 git svn clone URL
 git svn clone --stdlayout --authors-file=authors.txt https://svn.atlassian.com/Confluence ConfluenceAsGit
 ```
+### change the url of the repo
+```
+git remote -v
+git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git
+```
