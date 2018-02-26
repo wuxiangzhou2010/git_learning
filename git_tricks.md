@@ -64,3 +64,13 @@ git svn clone --stdlayout --authors-file=authors.txt https://svn.atlassian.com/C
 git remote -v
 git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git
 ```
+
+### change the commit author and message
+
+```
+git rebase -i <earliercommit>
+# change the pick to edit, save 
+git commit --amend --author="Author Name <email@address.com>"
+```
+- [link](https://stackoverflow.com/questions/3042437/change-commit-author-at-one-specific-commit)
+- [official link](https://help.github.com/articles/changing-a-commit-message/)
