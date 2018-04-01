@@ -75,8 +75,10 @@ git commit --amend --author="Author Name <email@address.com>"
 - [link](https://stackoverflow.com/questions/3042437/change-commit-author-at-one-specific-commit)
 - [official link](https://help.github.com/articles/changing-a-commit-message/)
 
-### 
+### file mode and line endings
 ```
 git config --global core.autocrlf true
 git config core.fileMode false
 ```
+### [convert svn  to git](http://john.albin.net/git/convert-subversion-to-git)
+
