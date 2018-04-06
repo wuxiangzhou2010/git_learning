@@ -82,7 +82,7 @@ git config core.fileMode false
 ```
 ### [convert svn  to git](http://john.albin.net/git/convert-subversion-to-git)
 
-### [Save credential]
+### Save credential
 ``` bash 
 git config credential.helper store
 ```
