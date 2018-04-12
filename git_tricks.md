@@ -16,8 +16,11 @@ git reset resets the master branch to what you just fetched. The --hard option c
 
 ``` shell
 git reset <some added file >
-## reset all added files 
+# reset all added files
 git reset (--all)
+# reset the file committed in local repo
+git reset --soft HEAD^
+
 git reset --hard original/master
 # OR If you are on some other branch
 git reset --hard origin/your_branch
