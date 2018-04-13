@@ -16,6 +16,7 @@ git reset resets the master branch to what you just fetched. The --hard option c
 
 ``` shell
 git reset <some added file >
+
 # reset all added files
 git reset (--all)
 # reset the file committed in local repo
@@ -138,4 +139,14 @@ git checkout master
 
 git rebase upstream/master
 git push -f origin master
+```
+
+## [Sync fork branch same as upstream](https://gist.github.com/glennblock/1974465)
+
+``` sh
+git remote add upstream https://github.com/some_user/some_repo
+git fetch upstream
+git checkout master
+git reset --hard upstream/master
+git push origin master --force
 ```
