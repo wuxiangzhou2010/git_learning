@@ -89,6 +89,12 @@ git remote -v
 git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git
 ```
 
+## [proxy through socks5](https://stackoverflow.com/questions/15227130/using-a-socks-proxy-with-git-for-the-http-transport)
+
+```sh
+git config --global http.proxy socks5h://192.168.1.123:4567
+```
+
 ## change the commit author and message
 
 ``` sh
