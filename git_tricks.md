@@ -93,6 +93,12 @@ git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git
 
 ```sh
 git config --global http.proxy socks5h://192.168.1.123:4567
+
+http_proxy=socks5://127.0.0.1:4567 go get github.com/mattn/go-sqlite3
+
+# unset proxy
+
+git config --global --unset http.proxy
 ```
 
 ## change the commit author and message
