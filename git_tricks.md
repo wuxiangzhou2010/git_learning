@@ -162,3 +162,10 @@ git checkout master
 git reset --hard upstream/master
 git push origin master --force
 ```
+
+## rest remote to a commit(not recommended)
+
+```sh
+ git reset --hard <commit-hash>
+ git push -f origin master
+```
