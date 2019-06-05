@@ -169,3 +169,22 @@ git push origin master --force
  git reset --hard <commit-hash>
  git push -f origin master
 ```
+
+## git merge and git rebase
+
+- `merge` will keep the same history
+- `rebase` will  base feature branch commit on master in below case
+
+```sh
+# merge
+git checkout feature1
+git merge master
+
+# rebase
+git checkout feature1
+git rebase master
+
+# abort rebease
+git rebase --abort
+
+```
