@@ -117,8 +117,13 @@ git commit --amend --author="Author Name <email@address.com>"
 ## file mode and line endings
 
 ``` sh
-git config --global core.autocrlf true
 git config core.fileMode false
+
+# On Windows:
+git config --global core.autocrlf true
+
+# On Linux:
+git config --global core.autocrlf input
 ```
 
 ## [convert svn  to git](http://john.albin.net/git/convert-subversion-to-git)
