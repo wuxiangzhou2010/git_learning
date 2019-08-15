@@ -195,3 +195,8 @@ git rebase master
 git rebase --abort
 
 ```
+
+## Ignore golbally
+```sh
+git config --global core.excludesfile ~/.gitignore_global
+```
